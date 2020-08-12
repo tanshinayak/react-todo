@@ -1,0 +1,61 @@
+.header{
+    background-color: rgb(41, 41, 95);
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.github{
+    float: right;
+    flex: 5%;
+    height: 10vh;
+    width: 15vh;
+}
+.container{
+    float: left;
+    flex: 95%;
+}
+.button1{
+    margin-left: 10px;
+}
+.button{
+    margin-left: 10px;
+    border-radius: 15px;
+    font-size: larger;
+    background-color:rgb(41, 41, 95);
+    color: white;
+    float:left;
+    flex:20%;
+    margin-right: 10px;
+}
+input{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.div{
+    display:flex;
+    margin-top: 40px;
+}
+.project{
+    flex:50%;
+    float: left;
+}
+.task{
+    flex:50%;
+    float: left;
+}
+.align{
+    display:flex;
+}
+.heading{
+    float: left;
+    flex: 80%;
+}
+.delete{
+    float: right; 
+    margin-right: 50px;
+    margin-left: 20px;
+    height:30px;
+}
