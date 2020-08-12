@@ -17,7 +17,7 @@ const Project=({allproject,selectProject,setAllproject})=>{
   const deleteproject=(project)=>{
     const i = allproject.indexOf(project);
     if (i > -1) {
-      setAllproject(allproject.splice(i, 1));
+      setAllproject(allproject.splice(i, 1))
     }
   }
   return (
